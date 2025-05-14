@@ -1,0 +1,33 @@
+{
+  "id": "ffxiv-ttrpg-icons-pack",
+  "title": "FFXIV TTRPG Icons Pack",
+  "manifest": "https://github.com/AxeBane/ffxiv-ttrpg-icons-pack/releases/latest/download/module.json",
+  "download": "https://github.com/AxeBane/ffxiv-ttrpg-icons-pack/releases/download/1.0.0/icons.zip"
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "AxeBane",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "ffxiv",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ffxiv-ttrpg-core-rulebook-compendia",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
